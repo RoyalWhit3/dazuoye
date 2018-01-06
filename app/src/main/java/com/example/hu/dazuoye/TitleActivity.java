@@ -60,8 +60,6 @@ public class TitleActivity extends AppCompatActivity implements View.OnClickList
     * @param backwardResident 文字
     * @param show  true 显示
     *
-    *
-    *
     * */
     protected void showBackwardView(int backwordResId, boolean show){
         if(mBackwardbButton!=null){
