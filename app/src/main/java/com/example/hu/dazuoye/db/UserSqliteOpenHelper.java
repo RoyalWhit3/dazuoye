@@ -23,7 +23,7 @@ public class UserSqliteOpenHelper extends SQLiteOpenHelper{
     @Override
     public void onCreate(SQLiteDatabase db) {
         System.out.println("onCreate方法被调用了");
-        //在数据库中去创建表
+        //在数据库中去创建表，数据库最终存储都为字符串
 
         db.execSQL("create table user( _id integer primary key autoincrement, username varchar(30), password varchar(40))");
 

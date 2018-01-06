@@ -24,8 +24,7 @@ public class MainActivity extends TitleActivity {
         SQLiteDatabase db = helper.getWritableDatabase();//调用此方法后才会完成创建数据库
 
 
-
-         setTitle("交通管理系统");
+        setTitle("交通管理系统");
          showBackwardView(R.string.text_back,false);
          setBottomImg("home");
 
